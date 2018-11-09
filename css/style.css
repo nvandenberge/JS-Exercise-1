@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto:300i');
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+fieldset {
+  width: 300px;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 0px;
+  width: 250px;
+}

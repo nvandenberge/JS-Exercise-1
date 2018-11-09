@@ -1,6 +1,10 @@
 const input = document.querySelector('input')
 input.addEventListener('keypress', eventHandler)
 
+function focus () {
+  document.getElementById('yourName').focus();
+}
+
 function eventHandler(event) {
   const p = document.createElement('p');
   const form = document.querySelector('form');
